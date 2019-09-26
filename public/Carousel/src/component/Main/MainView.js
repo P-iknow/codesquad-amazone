@@ -67,9 +67,6 @@ const Main = class extends Observer {
     const arrow = this.carousel.querySelector('.arrow-wrapper');
 
     arrow.addEventListener('click', e => this.reportEvent(e));
-    this.container.addEventListener('transitionend', () => {
-      this.transitionStatsToggle();
-    });
   }
 
   isClone(currentItem) {
@@ -93,7 +90,6 @@ const Main = class extends Observer {
   }
 
   moveMain(offset) {
-    this.transitionStatsToggle();
     this.container.style.transition = `transform ${this.config.duration}ms ${this.config.easing}`;
     this.container.style.transform = `translate3D(${offset}px, 0, 0)`;
   }
@@ -107,10 +103,6 @@ const Main = class extends Observer {
   moveWithoutAnimation(offset) {
     this.container.style.transition = 'none';
     this.container.style.transform = `translate3D(${offset}px, 0, 0)`;
-  }
-
-  transitionStatsToggle() {
-    this.isTransitioning = !this.isTransitioning;
   }
 };
 

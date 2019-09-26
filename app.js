@@ -6,7 +6,7 @@ const app = express();
 
 app.use('/auto-suggestion', autoSuggestion);
 app.use(express.static('public'));
-app.get('/', (req, res) => {
-  res.sendFile(`${__dirname}/index.html`);
-});
-app.listen(PORT, _ => console.log('start! express server on port 3000'));
+// app.get('/', (req, res) => {
+//   res.sendFile(`${__dirname}/index.html`);
+// });
+app.listen(PORT, _ => console.log(`start! express server on port ${PORT}`));
