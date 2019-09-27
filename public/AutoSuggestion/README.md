@@ -1,4 +1,27 @@
-# 검색완성 기능 만들기
+# 검색 자동완성 UI 프로젝트 개요 
+
+![image](https://user-images.githubusercontent.com/35516239/65754005-1acdc300-e14b-11e9-8031-029dd7ca6554.png)
+
+### 어떤 프로젝트 인가? 
+
+- CSS 에니메이션, DOM API를 활용하여 **검색어 자동완성 UI**를 구현한다. 
+- 구현 과정에서 별도의 라이브러리는 사용하지 않는다. 
+
+- [Demo Link](https://amazone-clone.herokuapp.com/Carousel/)
+
+### 어떤 기술을 사용했는가?
+
+- Javascript, SASS, Node
+
+### 프로젝트를 통해 무엇을 배웠는가? 
+
+- 재사용성과 객체간 의존성을 고려한 객체 설계(Observer 패턴)
+- Front-end 에서의 주요 인터랙션 흐름
+- Template Literal 활용 templating 구현을 통해 templating의 기본 원리 이해
+- CSS 에니메이션 활용 Slide UI 구현
+- Opacity 값과 item 복제를 활용한 Infinity Slide 구현
+
+# 프로젝트 진행중 기록
 
 ## 1. 변화에 대응할 수 있는 설계
 

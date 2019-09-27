@@ -50,12 +50,14 @@
   opacity: 0;
 }
 .carousel__container {
-  display: flex;
+  display: inline-flex;
 }
 .carousel__item {
   display: flex;
   justify-content: center;
   margin-top: 0.625rem;
+  width: 500px;
+  height: 500px;
 }
 .carousel__item--image img {
   width: 12.5rem;
