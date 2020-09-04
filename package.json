@@ -23,7 +23,7 @@
     "cors": "^2.8.5",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
